@@ -2,7 +2,7 @@
 <manifest>
     <remote fetch="ssh://git@github.com/PseudoDesign/" name="pseudo-design"/>
 
-    <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" upstream="main">
+    <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" revision="main">
         <linkfile dest="rakefile.rb" src="rakefile.rb"/>
     </project>
 </manifest>
