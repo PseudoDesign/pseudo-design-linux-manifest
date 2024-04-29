@@ -5,4 +5,8 @@
     <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" revision="main">
         <linkfile dest="rakefile.rb" src="rakefile.rb"/>
     </project>
+
+    <project name="pseudo-design-linux-build" path="docker" remote="pseudo-design" revision="gatesgarth">
+        <linkfile dest="create-build-image.sh" src="create-build-image.sh"/>
+    </project>
 </manifest>
