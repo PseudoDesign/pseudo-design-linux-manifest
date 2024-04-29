@@ -8,5 +8,6 @@
 
     <project name="pseudo-design-linux-build" path="docker" remote="pseudo-design" revision="gatesgarth">
         <linkfile dest="create-build-image.sh" src="create-build-image.sh"/>
+        <linkfile dest="start-build-image.sh" src="start-build-image.sh"/>
     </project>
 </manifest>
