@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="ssh://git@github.com/PseudoDesign/" name="pseudo-design"/>
-
-    <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" revision="main">
-        <linkfile dest="rakefile.rb" src="rakefile.rb"/>
-    </project>
+    <include name="common.xml"/>
 </manifest>
