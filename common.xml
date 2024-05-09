@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+    <!--[AMS] - pseudo-design github remote.-->
     <remote fetch="ssh://git@github.com/PseudoDesign/" name="pseudo-design"/>
 
     <!--[AMS] - Add the pseudo-design-linux-dev repository.  This is effectively the "root" repository, so we copy over the rakefile and README files.-->
     <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" revision="main">
-        <linkfile dest="rakefile.rb" src="rakefile.rb"/>
         <linkfile dest="README.md" src="README.md"/>
     </project>
 
@@ -14,7 +15,7 @@
         <linkfile dest="start-build-image.sh" src="start-build-image.sh"/>
     </project>
     
-    <!--[AMS] - Top level common meta layers.-->
+    <!--[AMS] - Top level common meta layers.  This will typically the distro layers we maintain.-->
     <project name="meta-pseudo-design" path="sources/meta-pseudo-design" remote="pseudo-design" revision="gatesgarth">
     </project>
 
