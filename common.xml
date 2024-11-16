@@ -10,13 +10,13 @@
     </project>
 
     <!--[AMS] - This is the build container repository.  The external interface scripts are brought out to root level; call them before doing anything Yocto/Bitbake related.-->
-    <project name="pseudo-design-linux-build" path="docker" remote="pseudo-design" revision="langdale">
+    <project name="pseudo-design-linux-build" path="docker" remote="pseudo-design" revision="scarthgap">
         <linkfile dest="create-build-image.sh" src="create-build-image.sh"/>
         <linkfile dest="start-build-image.sh" src="start-build-image.sh"/>
     </project>
     
     <!--[AMS] - Top level common meta layers.  This will typically the distro layers we maintain.-->
-    <project name="meta-pseudo-design" path="sources/meta-pseudo-design" remote="pseudo-design" revision="langdale">
+    <project name="meta-pseudo-design" path="sources/meta-pseudo-design" remote="pseudo-design" revision="scarthgap">
     </project>
 
     <!--[AMS] - The manifest files.  This is used to modify the sources used with the repo command.-->
