@@ -19,4 +19,8 @@
     <project name="meta-pseudo-design" path="sources/meta-pseudo-design" remote="pseudo-design" revision="langdale">
     </project>
 
+    <!--[AMS] - The manifest files.  This is used to modify the sources used with the repo command.-->
+    <project name="pseudo-design-linux-manifest" path="manifest" remote="pseudo-design" revision="scarthgap">
+    </project>
+
 </manifest>
