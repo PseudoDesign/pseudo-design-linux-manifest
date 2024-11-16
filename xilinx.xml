@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
 
+  <include name="common.xml"/>
+
+  <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
+  
   <project remote="xilinx"  revision="rel-v2024.2"      name="yocto-scripts"            path="sources/yocto-scripts">
        <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
