@@ -5,7 +5,7 @@
     <remote fetch="ssh://git@github.com/PseudoDesign/" name="pseudo-design"/>
 
     <!--[AMS] - Add the pseudo-design-linux-dev repository.  This is effectively the "root" repository, so we copy over the rakefile and README files.-->
-    <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" revision="main">
+    <project name="pseudo-design-linux-dev" path="dev" remote="pseudo-design" revision="scarthgap">
         <linkfile dest="README.md" src="README.md"/>
     </project>
 
