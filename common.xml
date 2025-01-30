@@ -23,11 +23,4 @@
     <project name="pseudo-design-linux-manifest" path="manifest" remote="pseudo-design" revision="scarthgap">
     </project>
 
-    <!--[AMS] - Remote for RAUC firmware updates -->
-    <remote fetch="ssh://git@github.com/rauc/" name="rauc"/>
-
-    <!--[AMS] - RAUC firmware update tools-->
-    <project name="meta-rauc" path="sources/meta-rauc" remote="rauc" revision="scarthgap">
-    </project>
-
 </manifest>
