@@ -16,7 +16,7 @@
     
     <!--[AMS] - Top level common meta layers.  This will typically the distro layers we maintain.-->
     <project name="meta-pseudo-design" path="sources/meta-pseudo-design" remote="pseudo-design" revision="scarthgap">
-        <linkfile dest="scripts/" src="scripts/">
+        <linkfile dest="scripts/" src="scripts/"/>
     </project>
 
     <!--[AMS] - The manifest files.  This is used to modify the sources used with the repo command.-->
